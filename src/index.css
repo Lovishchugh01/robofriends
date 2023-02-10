@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
 
+}
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1{
+  font-family: 'Julee', cursive;
+  font-weight: 900;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+input{
+  font-family: 'Julee', cursive;
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+H2,p{
+  font-family: 'Julee', cursive;
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
